@@ -1,0 +1,15 @@
+# Большой исходный набор скачивается отдельно по инструкции в README.
+data/input/*
+!data/input/.gitkeep
+
+# Результаты запусков обычно воспроизводимы.
+output/*
+!output/.gitkeep
+
+# Локальная среда Python и служебные файлы.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
